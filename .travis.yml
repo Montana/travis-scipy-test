@@ -2,4 +2,4 @@ dist: focal
 language: python 3.10
 before_install:
   - pip3 install scipy==1.2.1
- 
+ install: skip
