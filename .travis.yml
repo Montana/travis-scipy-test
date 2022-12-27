@@ -1,5 +1,7 @@
 os: linux
 dist: focal
 language: python 3.10
-before_install: pip3 install scipy==1.2.1
-install: skip
+before_install: 
+  - pip3 install scipy==1.2.1
+  - chmod +x ./hello.py
+install: python3 hello.py
