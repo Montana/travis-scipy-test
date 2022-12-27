@@ -1,0 +1,10 @@
+language: python
+
+jobs:
+  include:
+      before_install:
+        - pip3 install scipy==1.2.1
+    - name: "Python 3.10 on Ubuntu 20.04 Linux"
+      python: 3.10        
+      os: linux
+      dist: focal
